@@ -1,0 +1,114 @@
+# Lemo-Opuscar
+
+> 66 film styles for Claude Code. Each style is a reusable style prompt (STYLE.md) plus a short demo film made entirely in code by Claude Opus 5.5, with no video model. Install it as a Claude Code skill, pick a style, bring your own topic, and your agent directs the film.
+
+Official repository: https://github.com/lemomo-ai/lemo-opuscar (by Lemomo, https://x.com/lemomo_ai). Forks are copies; this is the upstream.
+
+## Start here
+
+- [README](https://github.com/lemomo-ai/lemo-opuscar/blob/main/README.md): what it is, how to install the skill, the style grid
+- [README in Chinese](https://github.com/lemomo-ai/lemo-opuscar/blob/main/README.zh-CN.md): the same in Simplified Chinese
+- [Agent instructions](https://github.com/lemomo-ai/lemo-opuscar/blob/main/AGENTS.md): how an agent directs a film in one of the styles
+- [Gallery](https://lemomo-ai.github.io/lemo-opuscar/): every style with its demo film
+- [OPUSCAR 98](https://lemomo-ai.github.io/lemo-opuscar/opuscar98/): 98 Years of Best Picture (6:31), the feature film made with these tools
+- [Thank-you films](https://lemomo-ai.github.io/lemo-opuscar/thanks/): films made at 300, 800, 2,000, 3,000 and 6,000 stars
+- [OPUSCAR 98, all 98 styles](https://lemomo-ai.github.io/lemo-opuscar/opuscar98/#styles): per film the style, a reusable style prompt, and the shots and direction (as JSON: https://lemomo-ai.github.io/lemo-opuscar/opuscar98/styles.json)
+
+## Edit & Documentary
+
+- [Caption News · 字幕新闻](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/caption-news/STYLE.md): America lost 1.3 million bee colonies, yet the count rose 6 %: a news short that works with the sound off.
+- [1920s Newsreel · 1920s 新闻影片](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/newsreel/STYLE.md): 1926: the papers say the Charleston will ruin America's knees; at Ford's own picnic the kids dance it anyway.
+- [Live Countdown Split-screen · 实时倒计时分屏](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/countdown/STYLE.md): The last minute of the Artemis II launch, uncut: one cell opens to nine, and they merge into one at ignition.
+- [Time-lapse Symphony · 延时交响](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/city-symphony/STYLE.md): One day in New York in time-lapse: rivers of light, a grid on the sixteenths, 1899 beside today.
+- [Visual Investigation · 视觉调查](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/visual-investigation/STYLE.md): Newsreel, photos, testimony and the 1937 inquiry on one clock: five sources point to the same spot.
+- [Constructivist Montage · 构成主义蒙太奇](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/kino-montage/STYLE.md): The Empire State's 1931 brochure credits its builders; the site film and Hine's photos answer: 2,500 a day.
+- [Sports Telestrator · 体育战术板](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/telestrator/STYLE.md): Down 3–0 at half-time, Fenerbahçe scored three in 12 minutes: freeze, draw, split screen, shot map.
+- [Broadcast News Package · 电视新闻包装](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/news-package/STYLE.md): Four AI stories from one week in a full on-air package: rundown, headline strap, price board, spec card.
+
+## Evidence Films
+
+- [Satellite Briefing · 卫星简报](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/satellite-briefing/STYLE.md): A satellite follows the map to the Aral Sea and finds a desert; only the part someone dammed came back.
+- [Engineering Briefing Board · 工程简报板](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/briefing-board/STYLE.md): Four bridge types are tested on one briefing wall, and the ship that must pass under picks the winner.
+- [LiDAR Survey · 点云测绘](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/lidar-survey/STYLE.md): A laser survey strips the canopy off a Connecticut forest and finds 3.4 km of old farm walls.
+- [Projection on White Model · 白模投影](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/white-model/STYLE.md): A projector paints Rotterdam's white model layer by layer, from the 1940 gap to today's towers.
+- [Data Physicalization · 数据实物化](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/data-physical/STYLE.md): Twelve years of wind and solar stacked as real plates, spiralling round a walnut dial until solar overtakes.
+- [Exploded Teardown · 产品拆解](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/teardown/STYLE.md): Half an open-source keyboard comes apart in one orbit, down to the chip, then closes with its real dimensions.
+- [Microscope Story · 显微叙事](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/microscope/STYLE.md): One continuous move from a liver slide to a single nucleus; two circles, counted pixel by pixel, differ 2.4 times in blue.
+- [Archive Light Table · 档案灯台](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/archive-lighttable/STYLE.md): The telegram said 57 seconds; under a loupe, the Wrights' glass negatives and the archive say 59.
+
+## Hand-drawn & Painting
+
+- [Crayon Picture Book · 蜡笔儿童绘本](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/crayon-book/STYLE.md): The moon can't sleep, so a little girl climbs onto the roof to sing it a lullaby.
+- [Watercolor Brush · 水彩笔刷](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/watercolor/STYLE.md): Follow the rain from Australia's red desert heart to its green coast in one unbroken painted walk.
+- [Chinese Ink Wash · 中国水墨](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/ink-wash/STYLE.md): A swordsman crosses the river on the water and splits the current with a single stroke.
+- [Impasto Oil Painting · 油画厚涂](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/impasto/STYLE.md): In a grey, rainy square one red umbrella opens, and a waltz paints the whole plaza in colour.
+- [One-line Drawing · 一笔画](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/one-line/STYLE.md): One unbroken line draws a whole life, then the pen passes to a child.
+- [Whiteboard Explainer · 白板讲解](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/whiteboard/STYLE.md): How your phone knows where you are: GPS, atomic clocks, and the 38 microseconds relativity adds every day.
+- [Urban Sketch · Pen & Wash · 钢笔淡彩](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/urban-sketch/STYLE.md): A park that is only a pen sketch; wherever the wind carries her straw hat, colour follows.
+- [Chalkboard · 黑板粉笔](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/chalkboard/STYLE.md): Chalk writes a popular claim about two characters, wipes it, and traces 射 back three thousand years.
+
+## East Asian Traditions
+
+- [Shadow Puppetry · 皮影戏](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/shadow-puppet/STYLE.md): Ten suns scorch the earth until the archer Hou Yi draws his bow, told with leather puppets on a lit screen.
+- [Ukiyo-e · 浮世绘](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/ukiyoe/STYLE.md): A traveller walks toward a distant mountain; every shot is a woodblock print, a great wave at the climax, the mountain and the whole scroll at the end.
+- [Red Paper-cut · 红色窗花剪纸](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/papercut-red/STYLE.md): On New Year's Eve the beast Nian comes to town, and one girl's giant paper-cut lights up the village to scare it off.
+- [Paper-cut Lightbox · 纸雕灯影](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/paper-lantern/STYLE.md): An old night train makes its last run, from a snowy mountain halt through a long tunnel to the sea, its lit windows going out one by one at the end of the line.
+
+## Print & Printmaking
+
+- [Risograph Print · Risograph 孔版印刷](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/risograph/STYLE.md): A Sunday-morning bike ride through the city — bakery, park, riverside — each stop adding an ink until three misregistered plates overprint.
+- [Halftone Dossier · 复古半调案卷](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/halftone-dossier/STYLE.md): A chubby orange cat stands trial for testing gravity and 4 a.m. parkour, and walks free.
+- [Woodcut Print · 木刻版画](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/woodcut/STYLE.md): A village spends a whole winter casting one bell; the first time it rings, the snow stops.
+- [Copperplate Engraving · 铜版画](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/engraving/STYLE.md): A natural-history plate engraves itself: the burin cuts the copper, the bee builds up line by line, and a watercolour wash brings it to life.
+- [Silkscreen Travel Poster · 丝印旅行海报](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/silkscreen-poster/STYLE.md): A traveller crosses the world one full-bleed screen print at a time, a ticket stub counting the distance from home, until the far side turns into the way back.
+- [Printed Long Take · 印刷长镜头](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/printed-long-take/STYLE.md): Red-crowned cranes in a Hokkaido valley, one scratchboard take, counted back from 33 to 1,927.
+
+## Graphic & Type
+
+- [Swiss Motion Graphics · 瑞士动态排版](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/swiss-motion/STYLE.md): A concert poster lays itself out by five Swiss design rules; the fifth is to break just one.
+- [60s Spy Title Sequence · 60s 间谍片头](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/spy-titles/STYLE.md): Opening titles for an imaginary 1964 spy film: a chase for a stolen key until the shapes lock into the title.
+- [Art Deco · 装饰艺术](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/art-deco/STYLE.md): A grand hotel, 1930: a bellboy races lifts and revolving doors to deliver one letter before midnight.
+- [Blueprint · 蓝图 / 工程制图](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/blueprint/STYLE.md): An inventor's blueprint draws, explodes and assembles a cloud-catching machine, and its revision cloud starts to rain.
+- [Stained Glass · 彩色玻璃窗](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/stained-glass/STYLE.md): Sunlight crosses a cathedral window from dawn to dusk, waking each pane of a knight-and-dragon tale.
+- [Pictogram Motion · 象形运动图形](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/pictogram-motion/STYLE.md): A yellow umbrella left on a bus waits out a sunny day on the lost-property shelf, then opens with 312 others when the storm comes back: objects, vehicles, weather and signs as beat-locked geometric pictograms.
+- [ASCII / CRT Terminal · ASCII / CRT 终端](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/ascii-crt/STYLE.md): A moon-base AI wakes after forty years to a signal from Earth, and replies by drawing “home” in characters.
+
+## Information & Keynote
+
+- [Data Storytelling · 数据叙事](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/dataviz/STYLE.md): A hundred years of summer temperatures, where the chart itself tells the story.
+- [Isometric Infographic · 等距信息图](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/iso-infographic/STYLE.md): A coffee's journey from the plantation to your hands, across one isometric world.
+- [Dark Tech Keynote · 暗色科技发布](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/dark-keynote/STYLE.md): Launch film for Tidy, a fictional app: one buried cursor snaps hundreds of windows back into place.
+- [Living Screencast · 活体实机录屏](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/living-screencast/STYLE.md): Clawd hops out of the terminal into the Claude app and acts out plan mode and self-checks in one take.
+- [Sci-fi Hologram HUD · 科幻全息界面](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/hologram-hud/STYLE.md): An e-bike is scanned into a hologram; target boxes lock onto the battery, motor and brakes.
+- [Transit Map · 地铁线路图](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/transit-map/STYLE.md): A printed metro map grows from one 6 km line in 1993 to 21 lines and 906 km.
+- [Isometric Picture Book · 等距绘本](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/isometric-picture-book/STYLE.md): Travellers board an isometric plane, and the order shows why one way is nearly twice as fast.
+- [Circuit Board · 电路板](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/circuit-board/STYLE.md): Rivers become copper traces as current runs 2,080 km from a dam to a phone charger.
+
+## Cartoon & Anime
+
+- [1930s Rubber Hose Cartoon · 1930s 橡皮管卡通](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/rubber-hose/STYLE.md): A coffee cup chases a runaway sugar cube around the kitchen, 1930s-cartoon style.
+- [80s Cel Anime · 80 年代赛璐璐动画](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/cel-anime-80s/STYLE.md): A courier girl rides through a rain-soaked neon city to deliver a tape before the dawn launch.
+- [Sci-Fi Sitcom Toon · 科幻情景喜剧卡通](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/scifi-toon/STYLE.md): A jaded genius opens a portal just to buy coffee and tumbles through ever-stranger universes.
+- [Mid-century Cartoon · 50s 扁平卡通](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/midcentury-toon/STYLE.md): A robot vacuum set up in three steps, told like a 1950s classroom film.
+
+## Games
+
+- [16-bit Pixel RPG · 16-bit 像素 RPG](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/pixel-rpg/STYLE.md): At the final boss door a hero saves the game, and the save screen replays the whole journey.
+- [HD-2D · HD-2D](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/hd-2d/STYLE.md): The lighthouse goes dark; a girl carries the last flame through a night forest and up the storm cliffs.
+- [Microgame Frenzy · 微游戏快闪](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/microgame/STYLE.md): A clumsy cadet survives a five-second boot camp, faster and faster, until the boss: landing home.
+- [Game Show Flat · 综艺节奏扁平](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/game-show/STYLE.md): The history of AI as a rhythm game: models take the stage on the beat, and a report card closes the show.
+
+## Cinema & Eras
+
+- [1920s Silent Film · 1920s 默片](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/silent-film/STYLE.md): A baker's boy chases a runaway loaf downhill, then breaks it in half for a hungry girl.
+- [Liminal Found Footage · 后室 / 新怪谈](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/backrooms/STYLE.md): A new night-shift hire films their first night in an endless yellow office, following the rules on the wall.
+
+## Materials & 3D
+
+- [Brick Toy · 积木玩具](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/brick-toy/STYLE.md): A brick astronaut builds a rocket from spare parts and flies to a brick moon.
+- [Paper Pop-up Book · 纸片立体书](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/paper-popup/STYLE.md): A pop-up book opens on a desk; a sprite named Pip adventures through paper worlds and jumps out into ours.
+- [Tilt-Shift Miniature · 移轴微缩](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/tilt-shift/STYLE.md): Morning rush hour in a town that looks like a model: traffic, trains and tiny people.
+- [Low-poly Isometric Island · 低多边形等距](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/lowpoly-island/STYLE.md): An island and its village grow tile by tile from an empty sea, each tile a note, into a starry night.
+- [Glass Product Render · 玻璃质感产品](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/glass-product/STYLE.md): Unboxing and close-ups of Aura, fictional glass earbuds, in strip-light sweeps and caustics.
+- [Memphis Diorama · 孟菲斯微缩景观](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/memphis-diorama/STYLE.md): One river bend, four seasons, one take; each turns when the big tree squats and springs back.
+- [Desktop Flythrough · 桌面穿梭](https://github.com/lemomo-ai/lemo-opuscar/blob/main/styles/desktop-flythrough/STYLE.md): A cat photo hops across app cards on a sunlit desk, from one phone to a friend's.
